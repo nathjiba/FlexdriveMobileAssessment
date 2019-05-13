@@ -1,0 +1,3 @@
+rootProject.name = 'FlexdriveMobileAssessment'
+
+include ':app'
