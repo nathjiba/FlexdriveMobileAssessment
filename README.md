@@ -5,12 +5,12 @@ Graphql is consumed with apollo client using the concept of lazy loading to load
 
 # Technology Used
 
-React Native
-Graphql
-Apollo
-Redux(redux-saga)
-Jest
-redux-saga-test-plan(for saga testing)
+* React Native
+* Graphql
+* Apollo
+* Redux(redux-saga)
+* Jest
+* redux-saga-test-plan(for saga testing)
 
 # Step to Run Application
 
