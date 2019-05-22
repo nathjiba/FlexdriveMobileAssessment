@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crash 1`] = `
+<View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/back_arrow.png",
+        }
+      }
+    />
+  </View>
+  <View>
+    <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
+    >
+      10 CARS FOUND
+    </Text>
+    <View>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/paper_plane.png",
+          }
+        }
+      />
+      <Text>
+        ATLANTA, GA
+      </Text>
+    </View>
+  </View>
+  <View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/filter_icon.png",
+          }
+        }
+      />
+      <Text>
+        FILTER
+      </Text>
+    </View>
+  </View>
+</View>
+`;

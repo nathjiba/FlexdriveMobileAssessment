@@ -1,51 +1,59 @@
-# Flexdrive Mobile Assessment
+# Objective
 
-## Process
+We have created React native app to display list of vehicles and their price. App is compitable with ios and android.
+Graphql is consumed with apollo client using the concept of lazy loading to load the data.
 
-1. Fork this repo to private repo.
-2. Check-in updates as you work.
-3. Invite daniel.oneill@flexdrive.com to view private repo.
-4. We'll contact you for follow up interview, next steps, etc.
+# Technology Used
 
-## Project
+React Native
+Graphql
+Apollo
+Redux(redux-saga)
+Jest
+redux-saga-test-plan(for saga testing)
 
-Spend up to 2 hours creating a search results page similar to the included mockup. Use whichever libraries you are most familiar with.
+# Step to Run Application
 
-![SRP](srp-mockup.png)
-
-GraphQL API URL: https://graph.qa.f1.flexdrive.com/
-
-Sample query:
+1. open terminal with project root folder
 
 ```
-query Vehicles($skip: Int!, $take: Int!) {
-    vehicles(query: { skip: $skip, take: $take }) {
-      edges {
-        node {
-          id
-          year
-          make
-          trim
-          model
-          rideshareEligible
-          pricing {
-            value
-            duration
-            durationUnit
-          }
-          location {
-            id
-            name
-          }
-          featureImage {
-            url
-          }
-        }
-      }
-      totalCount
-      pageInfo {
-        hasNextPage
-      }
-    }
-  }
+cd projectRoot
+
+```
+
+2. Install required dependencies
+
+```
+npm install
+
+```
+
+3. Link the dependencies
+
+```
+ react-native link
+
+```
+
+4. Run the application
+
+For ios
+
+```
+react-native run-ios
+
+```
+
+For Android
+
+```
+react-native run-android
+
+```
+
+5. To Run test cases (optional)
+
+```
+npm test
+
 ```

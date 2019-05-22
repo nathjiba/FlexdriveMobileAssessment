@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crash 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <Text>
+    The price includes insurance, maintenance & Road side.
+  </Text>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/close_icon.png",
+        }
+      }
+    />
+  </View>
+</View>
+`;

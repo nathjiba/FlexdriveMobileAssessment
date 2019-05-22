@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render without crash 1`] = `
+<View
+  accessible={true}
+  isTVSelectable={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View>
+    <Image
+      defaultSource={
+        Object {
+          "testUri": "../../../src/assets/car_placeholder.png",
+        }
+      }
+      source={
+        Object {
+          "uri": "https://f1-prod-assets.s3.amazonaws.com/f910b73b-f8a3-4e21-968e-acacd644ef25/images/IMG_4317/IMG_4317-2017-07-06-092338-full.jpg",
+        }
+      }
+    />
+    <View>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/lyft_icon.png",
+          }
+        }
+        style={
+          Object {
+            "height": 26,
+            "resizeMode": "contain",
+            "width": 26,
+          }
+        }
+      />
+      <Text>
+        ELIGIBEL
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={2}
+      >
+        1990 Kia Cadenza
+      </Text>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+      >
+        Flexdrive of Cherry Hill
+      </Text>
+    </View>
+    <View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text>
+          $20,422
+        </Text>
+        <Text>
+          For 7 days
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
